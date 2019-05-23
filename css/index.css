@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+    color: #6F6A64;
+}
+
+.gallery-container {
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/top-section_4360x1500.jpg);
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tagline-container {
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+    color: #6F6A64;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.copy-right-container {
+    background-color: #000000;
+    color: #6F6A64;
+}
+
+.partner-container {
+    background-color: #F6F6F6;
+}
+
+.contact-container {
+    background-color: #1D2327;
+    color: #6F6A64;
+}
+
+.summary-container {
+    margin: 80px 0px 40px 0px;
+    text-align: center;
+    color: #6F6A64;
+    width: 100%;
+    padding: 0 400px
+}
+
+.flexbox {
+    display: flex;
+    min-width: 0;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.features-items {
+    margin: 15px;
+    justify-content: center;
+}
+
+.benefits-items {
+    flex-direction: column;
+    margin: 15px;
+    align-content: center;
+}
+
+.tag-items {
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.collection-items {
+    margin: 15px;
+    padding-top: 30px;
+    justify-content: space-around;
+}
+
+.partner-items {
+    padding-left: 250px;
+}
+
+.platform-items {
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+
+.contact-items {
+    font-size: small;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.copy-right-items {
+    font-size: small;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.partner-items img {
+    height: 100px;
+    width: 250px;
+}
+
+.benefits-items img {
+    height: 100px;
+    width: 100px;
+}
+
+.collection-items img {
+    height: 200px;
+    width: 400px;
+}
+
+.features-items img {
+    border-style: solid;
+    border-color: #F6F6F6;
+    padding: 5px 30px;
+    border-width: 2px;
+    border-radius: 1px;
+}
+
+.video-img img {
+    width: 450px;
+    max-width: 100%;
+    max-height: 450px;
+}
+
+.stats img {
+    height: 15px;
+    width: 15px;
+}
+
+.platform-items img {
+    width: 150px;
+    height: 70px;
+}
+
+.contact-items img {
+    width: 15px;
+    height: 18px;
+    padding-top: 3px;
+}
+
+.copy-right-items img {
+    width: 15px;
+    height: 18px;
+    padding-top: 3px;
+}
+
+.features-items div {
+    display: flex;
+    width: 450px;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.feature-summary {
+    text-align: center;
+    font-size: small;
+    padding: 5px;
+}
+
+.benefits-items div {
+    display: flex;
+    margin: 15px;
+    width: 700px;
+}
+
+.benefits-summary {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.benefits-sub-heading {
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.benefits-summary p {
+    margin-left: 20px;
+}
+
+.benefits-summary :last-child {
+    font-size: small;
+}
+
+.collection-container p:last-child {
+    font-size: 15px;
+    font-weight: 100;
+    color: #6F6A64;
+    display: flex;
+    padding: 30px 400px 30px 400px;
+    justify-content: center;
+    text-align: center;
+}
+
+.partner-container .question {
+    font-size: 15px;
+    font-weight: bold;
+    color: #6F6A64;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.description {
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 140px;
+}
+.gallery-circles{
+    color: #fff;
+    font-size: x-small;
+    padding-top: 100px
+}
+
+.description :first-child {
+    font-size: xx-large;
+    color: #fff
+}
+
+.description :nth-child(2) {
+    width: 620px;
+    font-size: medium;
+    padding: 10px 0px 20px 0px;
+}
+
+.partner-items>* {
+    flex: 1 1 360px;
+    margin: 30px;
+}
+
+.text-image {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.overlay-ml {
+    width: 230px;
+}
+
+/* .video-img {
+    min-width: 0;
+    margin: 15px 15px 0px 15px;
+} */
+
+.video-tagline {
+    width: 450px;
+    max-width: 100%;
+}
+
+.stats {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.stats * {
+    margin-right: 15px;
+    font-size: small;
+    color: #6F6A64;
+}
+
+.share-icon {
+    height: 13px;
+    width: 13px;
+    transform: scaleX(-1);
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.search-icon {
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+}
+
+.arrow-icon {
+    height: 20px;
+    width: 20px;
+    transform: scaleY(-1);
+    color: #229BD7;
+}
+
+.share {
+    display: flex;
+    background: #E6E6E6;
+    border-radius: 5px;
+    padding: 2px 2px 15px 2px;
+    font-size: small;
+}
+
+.search {
+    color: #229BD7;
+    display: flex;
+}
+
+.left-links {
+    display: flex;
+    align-items: center;
+}
+
+.right-links {
+    display: flex;
+}
+
+.btn-square {
+    border: 0;
+    padding: 10px 40px 10px 40px;
+    font-size: small;
+    font-weight: bold;
+    color: #fff;
+    background-color: #229CD7;
+    cursor: pointer;
+}
+
+.tag-btn {
+    border: 0;
+    padding: 10px;
+    font-size: large;
+    color: #fff;
+    background-color: #337AB7;
+    cursor: pointer;
+}
+.arrow {
+    padding-left:5px;
+}
+.heading {
+    font-size: 40px;
+    font-weight: 100;
+    color: #6F6A64;
+    display: flex;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.sub-heading {
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 15px;
+}
+
+input[type="text"] {
+    width: 600px;
+    height: 40px;
+    padding: 22px 10px 20px 10px;
+    border-radius: 3px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.blue-link {
+    color: #229CD7;
+
+}
+
+.padding-top {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.content-space {
+    padding: 20px 10px 20px 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+}
